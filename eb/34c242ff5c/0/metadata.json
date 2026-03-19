@@ -1,0 +1,41 @@
+{
+  "cli_version": "dev",
+  "checkpoint_id": "eb34c242ff5c",
+  "session_id": "566b9d5a-bd25-41ae-a30e-356e373f1953",
+  "strategy": "manual-commit",
+  "created_at": "2026-03-12T03:50:00.279291Z",
+  "branch": "feature/support-codebuddy",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "cmd/entire/cli/agent/codebuddy/codebuddy.go",
+    "cmd/entire/cli/agent/codebuddy/hooks.go",
+    "cmd/entire/cli/agent/codebuddy/lifecycle.go",
+    "cmd/entire/cli/agent/codebuddy/types.go",
+    "cmd/entire/cli/agent/registry.go",
+    "cmd/entire/cli/config.go",
+    "cmd/entire/cli/hook_registry.go",
+    "cmd/entire/cli/hooks_cmd.go"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-sonnet-4-6",
+  "turn_id": "90e065310dc0",
+  "token_usage": {
+    "input_tokens": 3355136,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 0,
+    "output_tokens": 33324,
+    "api_call_count": 37
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-03-12T03:50:00.115521Z",
+    "agent_lines": 1193,
+    "human_added": 1761,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 2954,
+    "agent_percentage": 40.385917400135405
+  }
+}
